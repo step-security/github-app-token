@@ -25,8 +25,8 @@ inputs:
       Examples for each retrieval mode:
       - id: 1337
       - organization: github
-      - repository: tibdex/github-app-token
-      - user: tibdex
+      - repository: step-security/github-app-token
+      - user: step-security
     default: ${{ github.repository }}
   permissions:
     description: >-

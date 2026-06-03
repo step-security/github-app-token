@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: create_token
-        uses: step-security/github-app-toke@v2
+        uses: step-security/github-app-token@v2
         with:
           app_id: ${{ secrets.APP_ID }}
 
