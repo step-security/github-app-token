@@ -30,7 +30,7 @@
     "@types/is-base64": "^1.1.1",
     "@types/node": "^20.6.2",
     "@vercel/ncc": "^0.38.4",
-    "prettier": "^3.0.3",
+    "prettier": "^3.8.3",
     "prettier-plugin-packagejson": "^2.4.5",
     "typescript": "^5.2.2"
   }
