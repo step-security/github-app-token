@@ -1,8 +1,8 @@
 {
   "name": "github-app-token",
   "version": "2.1.0",
-  "author": "step-security",
   "license": "MIT",
+  "author": "step-security",
   "type": "module",
   "files": [
     "action.yml",
@@ -13,12 +13,13 @@
     "build:main": "npm run compile -- --out ./dist/main src/main.ts ",
     "build:post": "npm run compile -- --out ./dist/post src/post.ts",
     "compile": "ncc build --minify --no-cache --target es2022 --v8-cache",
-    "prettier": "prettier --ignore-path .gitignore \"./**/*.{js,json,md,ts}\"",
+    "prettier": "prettier --write --ignore-path .prettierignore \"./**/*.{js,json,md,ts}\"",
+    "prettier:check": "prettier --check --ignore-path .prettierignore \"./**/*.{js,json,md,ts}\"",
     "typecheck": "tsc --build"
   },
   "dependencies": {
-    "@actions/core": "^1.10.1",
-    "@actions/github": "^5.1.1",
+    "@actions/core": "^2.0.1",
+    "@actions/github": "^8.0.0",
     "@octokit/auth-app": "^6.0.0",
     "@octokit/request": "^8.1.1",
     "axios": "^1.16.1",
