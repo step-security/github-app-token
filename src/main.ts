@@ -1,7 +1,6 @@
-import * as fs from "fs";
-
-import { info, saveState, setOutput, setSecret } from "@actions/core";
 import * as core from "@actions/core";
+import * as fs from "fs";
+import { info, saveState, setOutput, setSecret } from "@actions/core";
 import axios, { isAxiosError } from "axios";
 
 import { createInstallationAccessToken } from "./create-installation-access-token.js";
