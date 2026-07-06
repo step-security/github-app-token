@@ -1,0 +1,18 @@
+{
+   "schema_version": "1",
+   "onboarding_type": "copied",
+   "archived": true,
+   "maintained_action_name": "step-security/github-app-token",
+   "upstream_full_repo_name": "tibdex/github-app-token",
+   "action_type": "node",
+   "last_release": {
+     "tag_name": "v2.1.0",
+     "created_at": "2026-06-03T12:08:03Z",
+     "published_at": "2026-06-03T20:51:03Z"
+   },
+   "sync": {
+     "ignore_presets": [
+       "defaults_v1"
+     ]
+   }
+ }
